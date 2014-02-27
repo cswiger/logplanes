@@ -2,7 +2,7 @@
 
 import MySQLdb, os, datetime
 
-mysql = MySQLdb.connect(host='192.168.1.119',user='aircraft',passwd='Password01',db='aircraft')
+mysql = MySQLdb.connect(host='192.168.1.251',user='aircraft',passwd='Password01',db='aircraft')
 mysqlcursor = mysql.cursor()
 
 adsb = os.popen("/home/chuck/src/dump1090/dump1090 --net --aggressive")
